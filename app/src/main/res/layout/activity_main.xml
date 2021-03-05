@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ArshdeepActivity1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+    android:id="@+id/uts12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:gravity="center"
+    android:text="Arshdeep Singh n01395129"
+    android:textColor="#FF0000"
+    android:textSize="20sp" />
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/fox" />
+
+
+    <EditText
+    android:id="@+id/edtUname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:hint="@string/editHint1"
+    android:inputType="textPersonName"
+    android:maxLength="10" />
+
+
+    <EditText
+    android:id="@+id/edtUpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:hint="@string/passHint"
+    android:inputType="numberPassword"
+    android:maxLength="8" />
+
+    <Button
+    android:id="@+id/btn1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="@color/grey"
+    android:clickable="false"
+    android:enabled="false"
+    android:text="@string/btnTxt" />
+
+</LinearLayout>

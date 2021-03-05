@@ -1,0 +1,17 @@
+<resources>
+    <color name="blue">#add8e6</color>
+
+    <string name="editHint1">Arshdeep</string>
+
+    <string name="passHint">Password is student ID</string>
+
+    <string name="btnTxt">Arshdeep Sign In</string>
+
+    <string name="firstName">Arshdeep</string>
+
+    <string name="stdId">n01395129</string>
+
+    <string name="passEdtError">Password must be your student Id</string>
+
+    <string name="dialogMsg">Invalid name/password please try again</string>
+</resources>
